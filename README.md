@@ -8,3 +8,6 @@ To get started, open the index.html file to find instructions and examples. You'
 ### Tim Hines
 
 **Feb. 25th**
+
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT9_bZ1NuwIUQ7XW9AiXhjDnAFByT0BDO3MEtUj5o2aYUmCad-T)
