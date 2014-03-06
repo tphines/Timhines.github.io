@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+    Class 13: Exercises 5+
+    </title>
+    <style>
+      body {
+            padding:20px 0 30px;
+            font:14px/1.5 Arial, sans-serif;
+            text-align:left;
+            color:#333;
+            background:#FAF0D9;
+        }
+
+        a {
+            font-weight:bold;
+            color:#346AA8;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            text-decoration:none;
+        }
+        /* Make a change below for Exercise 6*/
+        h2 {
+          color: black;
+        }
+
+        .container {
+            position:relative;
+            z-index:1;
+            width:600px;
+            padding:20px;
+            margin:0 auto;
+            background:#FAF0D9;
+        }
+
+        .container:after {
+            content:"";
+            display:block;
+            clear:both;
+            visibility:hidden;
+            height:0;
+            font-size:0;
+        }
+
+        /* Shared styles */
+
+        .drop-shadow {
+            position:relative;
+            /*float:left;*/
+            width:40%;
+            padding:1em;
+            margin:2em 10px 4em;
+            background:#fff;
+            -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        }
+
+        .drop-shadow:before,
+        .drop-shadow:after {
+            content:"";
+            position:absolute;
+            z-index:-2;
+        }
+
+        .drop-shadow p {
+            font-size:16px;
+            font-weight:bold;
+        }
+
+        /* Raised shadow - no pseudo-elements needed */
+
+        .raised {
+            -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        }
+    </style>
+  </head>
+  
+  <body>
+  <h1>Class 13: Exercises 5+</h1>
+  
+<h2 id="Exercise5">Exercise 5: Name in your Readme</h2>
+
+<p>Update Readme.md with your Full Name, so I know who the repository belongs to.</p>
+
+<p style="color:sienna;margin-left:20px;">This is a paragraph.</p>
+
+<h2 id="Exercise6">Exercise 6: Cascading Style Sheets</h2>
+<ol>
+<li>CSS inline like this: <p style="color:blue;">This is Blue</p></li>
+<li>Now use the same method to make the word the correct color: Red</li>
+<li>CSS full-page: Scroll to the top of this code, and look for the comment above h2, Change the color from black to <a href="http://www.somacon.com/p142.php">another color</a></li>
+</ol>
+
+<h2 id="Exercise7">Exercise 7: Embedding HTML</h2>
+<ol>
+<li>Embed survey code: Go back to your survey you made in Google Drive. Click the 'send form' link. There's an option to embed your survey. Past that code below this list.</li>
+<li><a href="http://bit.ly/Ae1Gis">Embed a youtube video below this list - You'll see a comment for where it should go</li>
+</ol>
+
+<!--Embed your survey code below this line:-->
+
+<!--Embed a youtube video below this line:-->
+
+<h2 id="Exercise8">Exercise 8: Advanced</h2>
+
+<p>If you’re ahead:
+Go find another github repository on github.com and fork it into your account.
+Go learn more about what github is, and why people use it (Maybe read the wikipedia article or github documentation)</p>
+
+Create a new file in your repo (figure out how! — google it!)
+Call it githubsummary.md
+
+Provide me at least two sentences and 5 bulleted reasons explaining what you’ve learned about what github is, and why people might use it. Be sure to create a header in Markdown for this page and use markdown to create your bulleted list.
+
+  
+  </body>
+</html>
+
